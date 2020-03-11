@@ -88,3 +88,10 @@ def better_file_reader(file_path: str) -> None:
     finally:
         file.close() if file else logging.warning("No file resource available to close.")
 
+
+x = '/Users/jkocher/Documents/PythonProjects/PythonFundamentals.Exercises.Part8/my_awesome_file.txt'
+
+single_exception_handling_reader(x)
+
+
+
